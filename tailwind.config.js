@@ -15,7 +15,9 @@ module.exports = {
           "02": "#656575",
           "03": "#A3A3A3",
           "04": "#F8F7F1",
+          "05": "#DEDEDE",
         },
+
         green: "#52C93F",
       },
       fontFamily: {

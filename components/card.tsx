@@ -3,7 +3,12 @@ import Props from "./props";
 
 function Card(props: Props) {
   return (
-    <div className="rounded-lg bg-white p-6 pb-[18px] drop-shadow-card">
+    <div
+      className={
+        "rounded-lg bg-white p-6 pb-[18px] drop-shadow-card " +
+        (props.className || "")
+      }
+    >
       {props.children}
     </div>
   );
